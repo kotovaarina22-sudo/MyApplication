@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Малыш и Хвост</string>
+
+    <!-- Каталог -->
+    <string name="catalog_title">Малыш и Хвост</string>
+    <string name="catalog_subtitle">Найди своего маленького друга 🐾</string>
+    <string name="search_hint">Поиск по кличке</string>
+    <string name="quiz_button">Подобрать собаку 🐾</string>
+    <string name="quiz_banner">✨ Подобрано по вашей анкете</string>
+    <string name="quiz_reset">Сбросить</string>
+    <string name="chip_male">Мальчики</string>
+    <string name="chip_female">Девочки</string>
+    <string name="chip_puppy">Щенки</string>
+    <string name="chip_adult">Взрослые</string>
+    <string name="chip_senior">Пожилые</string>
+    <string name="chip_small">До 5 кг</string>
+    <string name="chip_favorites">Избранное</string>
+    <string name="empty_list">Никого не нашли 😔\nПопробуйте изменить фильтры</string>
+    <string name="favorite_button">Добавить в избранное</string>
+
+    <!-- Анкета -->
+    <string name="quiz_title">Подберём вам друга</string>
+    <string name="quiz_subtitle">Ответьте на 4 вопроса, и мы покажем подходящих собак</string>
+    <string name="quiz_kids">Есть ли дома дети?</string>
+    <string name="quiz_cats">Есть ли дома кошка?</string>
+    <string name="quiz_time">Сколько времени готовы гулять?</string>
+    <string name="quiz_age">Кого ищете?</string>
+    <string name="answer_yes">Да</string>
+    <string name="answer_no">Нет</string>
+    <string name="answer_time_much">Много</string>
+    <string name="answer_time_little">Немного</string>
+    <string name="answer_puppy">Щенка</string>
+    <string name="answer_adult">Взрослую</string>
+    <string name="answer_any">Неважно</string>
+    <string name="quiz_show">Показать подходящих</string>
+</resources>

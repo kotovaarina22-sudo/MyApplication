@@ -1,0 +1,25 @@
+<resources>
+    <!-- Светлая тема Material 3 с нашими цветами. Тёмной темы нет. -->
+    <style name="Theme.MalyshIHvost" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/peach_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/peach_light</item>
+        <item name="colorOnPrimaryContainer">@color/brown_dark</item>
+        <item name="colorSecondary">@color/text_secondary</item>
+        <item name="colorSecondaryContainer">@color/peach_light</item>
+        <item name="colorOnSecondaryContainer">@color/brown_dark</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="colorOnBackground">@color/text_main</item>
+        <item name="colorSurface">@color/cream</item>
+        <item name="colorOnSurface">@color/text_main</item>
+        <item name="colorSurfaceVariant">@color/cream_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorSurfaceContainerLowest">@color/white</item>
+        <item name="colorSurfaceContainerLow">@color/cream</item>
+        <item name="colorSurfaceContainer">@color/peach_pale</item>
+        <item name="colorSurfaceContainerHigh">@color/peach_pale</item>
+        <item name="colorSurfaceContainerHighest">@color/cream_dark</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/cream_dark</item>
+    </style>
+</resources>

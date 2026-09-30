@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Анкета «Подобрать собаку» во всплывающей снизу панели -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_title"
+            android:textColor="@color/peach_dark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/quiz_subtitle"
+            android:textColor="@color/text_secondary" />
+
+        <!-- Вопрос 1 -->
+        <TextView
+            style="@style/QuizQuestion"
+            android:text="@string/quiz_kids" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/kidsNo"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/kidsYes"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_yes" />
+
+            <RadioButton
+                android:id="@+id/kidsNo"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_no" />
+        </RadioGroup>
+
+        <!-- Вопрос 2 -->
+        <TextView
+            style="@style/QuizQuestion"
+            android:text="@string/quiz_cats" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/catsNo"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/catsYes"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_yes" />
+
+            <RadioButton
+                android:id="@+id/catsNo"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_no" />
+        </RadioGroup>
+
+        <!-- Вопрос 3 -->
+        <TextView
+            style="@style/QuizQuestion"
+            android:text="@string/quiz_time" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/timeMuch"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/timeMuch"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_time_much" />
+
+            <RadioButton
+                android:id="@+id/timeLittle"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_time_little" />
+        </RadioGroup>
+
+        <!-- Вопрос 4 -->
+        <TextView
+            style="@style/QuizQuestion"
+            android:text="@string/quiz_age" />
+
+        <RadioGroup
+            android:id="@+id/ageGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/ageAny"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/agePuppy"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_puppy" />
+
+            <RadioButton
+                android:id="@+id/ageAdult"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_adult" />
+
+            <RadioButton
+                android:id="@+id/ageAny"
+                style="@style/QuizAnswer"
+                android:text="@string/answer_any" />
+        </RadioGroup>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/showButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:paddingVertical="12dp"
+            android:text="@string/quiz_show"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
