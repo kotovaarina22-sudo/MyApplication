@@ -33,4 +33,70 @@
     <string name="answer_adult">Взрослую</string>
     <string name="answer_any">Неважно</string>
     <string name="quiz_show">Показать подходящих</string>
+
+    <!-- Страница собаки -->
+    <string name="detail_back">Назад</string>
+    <string name="detail_age">Возраст</string>
+    <string name="detail_gender">Пол</string>
+    <string name="detail_weight">Вес</string>
+    <string name="detail_color">🎨 Окрас: %1$s</string>
+    <string name="detail_arrival">🏠 В приюте с %1$s</string>
+    <string name="detail_badges">Характер и здоровье</string>
+    <string name="detail_story">История</string>
+    <string name="detail_character">Какой характер</string>
+    <string name="detail_contact">Связаться с приютом</string>
+    <string name="detail_call">Позвонить</string>
+    <string name="detail_telegram">Telegram</string>
+    <string name="detail_apply">Оставить заявку 🐾</string>
+    <string name="detail_no_app">Не нашлось приложения, чтобы это открыть</string>
+    <string name="badge_kids">Ладит с детьми</string>
+    <string name="badge_cats">Ладит с кошками</string>
+    <string name="badge_vaccinated">Есть прививки</string>
+    <string name="badge_sterilized">Стерилизация</string>
+    <string name="badge_litter">Ходит на пелёнку</string>
+
+    <!-- Форма заявки -->
+    <string name="request_title">Заявка</string>
+    <string name="request_chosen">Вы выбрали</string>
+    <string name="request_type">Что хотите сделать?</string>
+    <string name="type_adopt">🏠 Забрать домой</string>
+    <string name="type_foster">🤲 Взять на передержку</string>
+    <string name="type_walk">🦮 Прийти погулять</string>
+    <string name="request_contacts">Ваши контакты</string>
+    <string name="request_home">О вашем доме</string>
+    <string name="field_date">Дата прогулки</string>
+    <string name="field_name">Имя</string>
+    <string name="field_phone">Телефон</string>
+    <string name="field_email">E-mail</string>
+    <string name="field_housing">Где вы живёте?</string>
+    <string name="field_animals">Есть ли другие животные?</string>
+    <string name="field_comment">Комментарий</string>
+    <string name="field_optional">Необязательно</string>
+    <string name="field_consent">Я согласен(на) на обработку персональных данных</string>
+    <string name="request_submit">Отправить заявку</string>
+
+    <string name="error_date">Выберите дату</string>
+    <string name="error_name">Введите имя: только буквы, от 2 символов</string>
+    <string name="error_phone">Введите номер в формате +7 999 123-45-67</string>
+    <string name="error_email">Введите корректный e-mail</string>
+    <string name="error_choose">Выберите вариант</string>
+    <string name="error_consent">Нужно согласие на обработку данных</string>
+
+    <string-array name="housing_options">
+        <item>Квартира</item>
+        <item>Частный дом</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="animals_options">
+        <item>Нет</item>
+        <item>Есть собака</item>
+        <item>Есть кошка</item>
+        <item>Есть другие животные</item>
+    </string-array>
+
+    <!-- Экран «Спасибо» -->
+    <string name="success_emoji">🐶</string>
+    <string name="success_title">Спасибо, %1$s!</string>
+    <string name="success_text">Заявка «%1$s» отправлена.\nПитомец: %2$s\n\nМы позвоним вам по номеру %3$s\nв ближайшее время 🐾</string>
+    <string name="success_back">Вернуться в каталог</string>
 </resources>

@@ -11,6 +11,10 @@
     <color name="text_secondary">#7A6358</color>
     <color name="outline">#D9C3B7</color>
     <color name="heart">#E5576B</color>
+    <color name="green_light">#E2F0D9</color>
+    <color name="green_dark">#3E6B2C</color>
+    <color name="red_light">#FFD4D4</color>
+    <color name="red_dark">#C62828</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white_translucent">#E6FFFFFF</color>
 </resources>

@@ -1,8 +1,8 @@
 package ru.malyshihvost.catalog
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.SystemBarStyle
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
@@ -17,6 +17,7 @@ import ru.malyshihvost.data.AgeGroup
 import ru.malyshihvost.data.Gender
 import ru.malyshihvost.databinding.ActivityCatalogBinding
 import ru.malyshihvost.databinding.DialogQuizBinding
+import ru.malyshihvost.detail.DogDetailActivity
 
 // Экран 1 — каталог собак.
 class CatalogActivity : AppCompatActivity() {
@@ -26,8 +27,10 @@ class CatalogActivity : AppCompatActivity() {
 
     private val adapter = DogAdapter(
         onDogClick = { dog ->
-            // Экран собаки сделаем следующим шагом.
-            Toast.makeText(this, "Скоро здесь будет страница: ${dog.name}", Toast.LENGTH_SHORT).show()
+            // Открываем страницу собаки и передаём ей id через Intent.
+            val intent = Intent(this, DogDetailActivity::class.java)
+            intent.putExtra(DogDetailActivity.EXTRA_DOG_ID, dog.id)
+            startActivity(intent)
         },
         onFavoriteClick = { dog -> viewModel.onFavoriteClick(dog) }
     )
